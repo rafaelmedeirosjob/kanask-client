@@ -13,11 +13,11 @@ export default new Router({
       component: Kanban,
       children: [
         {
-            path: 'kanban',
+            path: '/kanban',
             name: 'kanban',
             component: () => import('./pages/Kanban.vue')
-          }
-        ]
+        }
+    ]
     }
   ]
 })
