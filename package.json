@@ -4,7 +4,7 @@
   "author": "Rafael Medeiros",
   "license": "ISC",
   "scripts": {
-    "start": "node server.js",
+    "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
